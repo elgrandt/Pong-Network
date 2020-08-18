@@ -1,0 +1,38 @@
+level{
+	name: '#data/levels\Primer Nivel'
+	author: 'auto'
+	description: 'nothing'
+	arenas: arena1
+}
+arena1{
+	player1: 100 100 1
+	background: 80 80 60 20 "Fondo 1" 1
+	background: 1380 80 35 50 "Fondo 2" 1
+	wall: 80 0 30 2 0 "Arriba" "wall 1"
+	wall: 0 80 10 2 1 "Izquierda" "wall 2"
+	wall: 3080 80 10 2 1 "Derecha" "wall 3"
+	wall: 80 1080 7 2 0 "Abajo" "wall 4"
+	wall: 280 80 5 2 1 "Centro" "wall 5"
+	wall: 80 580 1 2 0 "Centro" "wall 6"
+	wall: 780 180 9 2 1 "Centro" "wall 7"
+	wall: 780 180 2 2 0 "Centro" "wall 8"
+	wall: 1180 180 2 2 0 "Centro" "wall 9"
+	wall: 780 1080 6 2 0 "Abajo" "wall 10"
+	wall: 1380 180 9 2 1 "Centro" "wall11"
+	wall: 1380 180 2 2 0 "Centro" "wall12"
+	esquina: 0 0 0 "esquina 1"
+	esquina: 0 1080 3 "esquina 2"
+	esquina: 3080 0 1 "esquina 3"
+	esquina: 3080 1080 2 "esquina 4"
+	esquina: 280 580 2 "esquina 5"
+	esquina: 780 1080 2 "esquina 5"
+	esquina: 780 180 0 "esquina 6"
+	esquina: 1180 180 0 "esquina 7"
+	esquina: 980 180 3 "esquina 8"
+	esquina: 1380 1080 2 "esquina 9"
+	enemy: 580 580 "terminator" 1
+	enemy: 580 380 "lanchinator" 1
+	enemy: 980 380 "dylaneitor" 1
+	enemy: 980 380 "patoneitor" 2
+	enemy: 980 380 "franineitor" 1
+}

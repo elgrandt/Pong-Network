@@ -1,0 +1,9 @@
+bar{
+	color: 0 0 0
+	transparencia: 200
+}
+
+game_over{
+	color_mensaje: 0 0 255
+	color_boton: 255 0 0
+}

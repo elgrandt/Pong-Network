@@ -1,0 +1,45 @@
+level{
+	name: '#data/levels\arena 1.lvl'
+	author: 'auto'
+	description: 'nothing'
+	arenas: arena1
+}
+arena1{
+	player1: 100 100 1
+	background: -10 -97 20 10 "Background 0" 1
+	background: 990 -97 20 10 "Background 0" 1
+	wall: -8 -96 5 2 True "Izquierda" "Wall 0"
+	esquina: -7 -96 0 "Esquina 0"
+	esquina: -7 323 1 "Esquina 0"
+	wall: 73 -97 7 2 False "Arriba" "Wall 0"
+	wall: 73 323 7 2 False "Abajo" "Wall 0"
+	wall: 194 224 1 1 True "Centro" "Wall 0"
+	wall: 194 125 1 1 True "Centro" "Wall 0"
+	wall: 295 -18 1 1 True "Centro" "Wall 0"
+	wall: 295 81 1 1 True "Centro" "Wall 0"
+	wall: 394 224 1 1 True "Centro" "Wall 0"
+	wall: 394 125 1 1 True "Centro" "Wall 0"
+	wall: 495 -17 1 1 True "Centro" "Wall 0"
+	wall: 495 80 1 1 True "Centro" "Wall 0"
+	coin: 295 245 "Coin 0"
+	coin: 395 -35 "Coin 0"
+	esquina: 859 -29 0 "Esquina 0"
+	esquina: 858 255 1 "Esquina 0"
+	esquina: 1142 255 2 "Esquina 0"
+	esquina: 1142 -29 3 "Esquina 0"
+	wall: 940 254 2 2 False "Centro" "Wall 0"
+	wall: 940 -28 2 2 False "Centro" "Wall 0"
+	wall: 859 53 2 2 True "Centro" "Wall 0"
+	wall: 1857 53 2 2 True "Centro" "Wall 0"
+	wall: 940 12 1 1 False "Centro" "Wall 0"
+	wall: 1040 12 1 1 False "Centro" "Wall 0"
+	wall: 939 254 1 1 False "Centro" "Wall 0"
+	wall: 1040 254 1 1 False "Centro" "Wall 0"
+	wall: 901 153 1 1 True "Centro" "Wall 0"
+	wall: 899 53 1 1 True "Centro" "Wall 0"
+	wall: 1020 104 1 1 True "Centro" "Wall 0"
+	enemy: 939 54 "Enemy 0" 2 True "Random"
+	enemy: 1863 53 "Enemy 0" 2 True "Random"
+	wall: 1141 53 2 2 True "Centro" "Wall 0"
+	enemy: 591 157 "Enemy 0" 1 True "Vertical"
+}
